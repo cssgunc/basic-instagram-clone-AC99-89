@@ -1,1 +1,27 @@
-
+.top-flex{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+#follow-btn{
+    padding-left: 3vw;
+}
+.pre-bio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#pre-bio-pad{
+    padding-inline: 3vw;
+}
+#bio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
