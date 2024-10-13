@@ -1,6 +1,15 @@
+.header-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 .top-flex{
     display: flex;
     flex-direction: column;
+}
+.Btn{
+    cursor: pointer;
+    border: hidden;
 }
 .title{
     display: flex;
@@ -9,8 +18,36 @@
     align-items: center;
     
 }
-#follow-btn{
+#profile-name{
+    padding-right: 3vw;
     padding-left: 3vw;
+}
+#login-Btn{
+    margin-left: 50vw;
+    color: white;
+    background-color: rgb(27, 161, 238);
+}
+#signup-Btn{
+    color: aqua;
+    background-color: white;
+}
+#follow-btn{
+    border: solid;
+    border-color: lightslategray;
+    background-color: lightslategray;
+    text-align: center;
+    margin-right: 1vw;
+}
+#message-btn{
+    border: solid;
+    border-color: lightslategray;
+    background-color: lightslategray;
+    text-align: center;
+}
+#period-btn{
+    margin-left: 1vw;
+    background-color: white;
+    font-size: larger;
 }
 .pre-bio{
     display: flex;
@@ -21,6 +58,11 @@
     padding-inline: 3vw;
 }
 #bio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.footer-flex{
     display: flex;
     flex-direction: row;
     justify-content: center;
